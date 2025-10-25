@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1 align="Center">Hotel Room Booking Form</h1>
+    <form action="./Response.html" target="_blank" name+="Hotel Form" method="get">
+        <fieldset align="center">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+            <br>
+            <br>
+            <label for="tel">Phone:</label>
+            <input type="tel" id="tel" name="tel" placeholder="Enter Your Phone Number" required>
+            <br>
+            <br>
+            <label for="check in date">Check In Date</label>
+            <input type="date" id="check in date" name="check out date" required>
+            <br>
+            <br>
+            <label for="check out date">Check Out Date</label>
+            <input type="date" id="check out date" name="check out date" required>
+            <br>
+            <br>
+            <label for="room type">Room Type</label>
+            <select name="room type" id="room type" required>
+                <option value="none" seleted disabled>Room Type</option>
+                <option value="Single">Single Room</option>
+                <option value="Double">Double Room</option>
+                <option value="Faimly">Faimly Room</option>
+            </select>
+            <br>
+            <br>
+            <label for="guests">No. Of Guests</label>
+            <input type="number" name="guests" id="guests" placeholder="Enter Number of guests" required>
+            <br>
+            <br>
+            <label for="feedback">Special Request</label>
+            <br>
+            <textarea name="feedback" id="feedback" rows="4" cols="50"
+                placeholder="Enter Any Special Request Here....."></textarea>
+            <br>
+            <br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Book Now">
+
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
